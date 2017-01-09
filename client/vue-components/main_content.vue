@@ -71,25 +71,11 @@
     width: 30vw;
   }
   html, body{
-    margin: 0;
     color: #333;
     font-family: 'Monaco', courier, monospace;
   }
   #editor {
     height: 100%
-  }
-  textarea, #editor div {
-    width: 100%;
-    height: 100%;
-    vertical-align: top;
-    padding: 0 20px;
-  }
-  textarea {
-    border: none;
-    resize: none;
-    outline: none;
-    font-size: 1em;
-    padding: 20px;
   }
   code {
     color: #f66;
