@@ -1,5 +1,4 @@
 const {Step} = require("prosemirror-transform")
-
 const {Router} = require("./route")
 const {schema} = require("./schema")
 const {getInstance, instanceInfo} = require("./instance")
@@ -15,7 +14,7 @@ class Output {
   constructor(code, body, type) {
     this.code = code
     this.body = body
-    this.type = type || "text/plain"
+    this.type = type || 'text/plain'
   }
 
   static json(data) {

@@ -17,6 +17,10 @@ body{
   float: right;
 }
 
+.Tesis-style {
+  border: 3px solid pink;
+}
+
 /*THIS IS FOR THE COMMENT HIGHLIGHTING*/
 .subtle { color: #777 }
 
