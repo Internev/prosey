@@ -17,7 +17,7 @@ let router = new VueRouter({
   ],
 });
 
-new Vue({
+const tesis = new Vue({
   router,
   template: `
     <div>
